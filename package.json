@@ -1,0 +1,42 @@
+{
+  "name": "repo-mapper",
+  "description": "A powerful tool to generate repository maps with summaries and statistics",
+  "keywords": [
+    "repository",
+    "mapper",
+    "structure",
+    "documentation",
+    "ai-prompts",
+    "codebase"
+  ],
+  "author": "vrashankshetty",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/repo-mapper.git"
+  },
+  "homepage": "https://github.com/yourusername/repo-mapper#readme",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "prepare": "npm run build",
+    "dev": "nodemon src/test.ts",
+    "build": "tsc"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
