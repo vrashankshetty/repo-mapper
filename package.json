@@ -12,9 +12,9 @@
   "author": "vrashankshetty",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/repo-mapper.git"
+    "url": "git+https://github.com/vrashankshetty/repo-mapper"
   },
-  "homepage": "https://github.com/yourusername/repo-mapper#readme",
+  "homepage": "https://github.com/vrashankshetty/repo-mapper/blob/main/Readme.md",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
